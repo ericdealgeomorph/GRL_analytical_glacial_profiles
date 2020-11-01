@@ -1,6 +1,6 @@
 __Analytical glacio-fluvial steady-state profiles__
 
-The code provided calculates the steady-state profile described in the paper, 'The Sliding Ice Incision Model: A new approach to understanding glacial landscape evolution' be Eric Deal and Günther Prasicek. It solves for the bedrock profile elevation according to 
+The code provided calculates the steady-state profile described in the paper, 'The Sliding Ice Incision Model: A new approach to understanding glacial landscape evolution' by Eric Deal and Günther Prasicek. It solves for the bedrock profile elevation according to 
 
 *z(x) = h(x) - H(x) if x < x<sub>t</sub>* and *z(x) = k<sub>s</sub> ln(L/x) if x > x<sub>t</sub>,* where x<sub>t</sub> is the horizontal location of the glacier terminus.
 
