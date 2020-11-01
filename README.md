@@ -28,7 +28,7 @@ gp = glacial_profile_model()
 ```
 There is a default parameter set, but many parameters can also be passed as the model object is created, including uplift rate, ELA, rainfall rate P, as well as fluvial and glacial erodibility coefficients and exponents.
 ```PYTHON
-gp = glacial_profile_model(U=1e-3, ELA=1000, P=3, delta=3e-3, plot=True)
+gp = glacial_profile_model(U=1e-3, ELA=1000, P=3, delta=3e-3, plot=False)
 ```
 Other parameter values can be changed directly in the class definition is required.
 
