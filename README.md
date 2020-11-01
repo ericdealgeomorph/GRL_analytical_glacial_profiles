@@ -18,7 +18,7 @@ There is a default parameter set, but many parameters can also be passed as the 
 ```PYTHON
 gp = glacial_profile_model(U=1e-3, ELA=1000, P=3, delta=3e-3, plot=False)
 ```
-Other parameter values can be changed directly in the class definition is required.
+Other parameter values can be changed directly in the class definition if required.
 
 The model will automatically choose whether to solve for a purely fluvial, mixed glacio-fluvial or purely glacial profile based on the given parameters. If the keyword `plot=True`, the profile will be plotted with the ELA and ice thickness shown:
 
