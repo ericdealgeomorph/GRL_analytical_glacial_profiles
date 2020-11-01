@@ -2,9 +2,9 @@ __Analytical glacio-fluvial steady-state profiles__
 
 The code provided calculates the steady-state profile described in the paper, 'The Sliding Ice Incision Model: A new approach to understanding glacial landscape evolution' be Eric Deal and Günther Prasicek. It solves for the bedrock profile elevation according to 
 
-*z(x) = h(x) - H(x) if x < x<sub>t</sub>* and *z(x) = k<sub>s</sub> ln(L/x) if x > x<sub>t</sub>.*
+*z(x) = h(x) - H(x) if x < x<sub>t</sub>* and *z(x) = k<sub>s</sub> ln(L/x) if x > x<sub>t</sub>,* where x<sub>t</sub> is the horizontal location of the glacier terminus.
 
-Where *h(x) =  k<sub>s</sub> ln(x<sub>t</sub>/L) + c<sub>s</sub>x<sub>t</sub><sup>r</sup>I<sub>(1-x/x_t)</sub>(c<sub>1</sub>,c<sub>2</sub>)* is the ice surface elevation and *H(x) = c<sub>p</sub>(c<sub>e</sub>/U)<sup>&gamma;/&ell;</sup>q<sub>g</sub><sup>&gamma;</sup>* is the ice thickness. The various parameters are described in the paper.
+And where *h(x) =  k<sub>s</sub> ln(x<sub>t</sub>/L) + c<sub>s</sub>x<sub>t</sub><sup>r</sup>I<sub>(1-x/x_t)</sub>(c<sub>1</sub>,c<sub>2</sub>)* is the ice surface elevation and *H(x) = c<sub>p</sub>(c<sub>e</sub>/U)<sup>&gamma;/&ell;</sup>q<sub>g</sub><sup>&gamma;</sup>* is the ice thickness. The various parameters are described in the paper.
 
 The model is set up as a class,
 ```PYTHON
