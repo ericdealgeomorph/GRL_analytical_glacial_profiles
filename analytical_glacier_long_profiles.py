@@ -24,7 +24,7 @@ class glacial_profile_model(object):
         ce=1e-4, # glacial erodibility coefficient (units depend on ell)
         ice_sliding_exp=7/9, # ice sliding exponent, ell
         # plot profile or not
-        plot=False):
+        plot=True):
 
         if plot is True: plt.figure(1, figsize=(10,6))
 
